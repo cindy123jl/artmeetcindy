@@ -16,10 +16,23 @@ li {
     list-style-type: none;
 }
 
+.container {
+    text-align: center;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12rem;
+    border-radius: 8%;
+}
+
 h1 {
     font-family: 'Poiret One', cursive;
+    color: white;
 }
 
 h2 {
     font-family: 'Poiret One', cursive;
+    color: white;
 }
