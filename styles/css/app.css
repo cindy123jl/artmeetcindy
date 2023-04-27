@@ -18,7 +18,7 @@ li {
 }
 
 .container {
-    padding-top: 10%;
+    padding-top: 1%;
     text-align: center;
 }
 
@@ -29,21 +29,45 @@ li {
     height: 150px;
     width: 150px;
     border-color: black;
+    filter: drop-shadow(8px 8px 10px rgb(255, 255, 255));
 }
 
 h1 {
     font-family: 'Poiret One', cursive;
     color: white;
     padding-bottom: 2%;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 h2 {
     font-family: 'Poiret One', cursive;
     color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 p {
     color: rgb(250, 104, 128);
     padding-top: 2%;
     font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 40%;
+}
+.form-label {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+input textarea{
+    color: antiquewhite;
 }
